@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+*.pyc
+*.egg-info
+db.sqlite3
