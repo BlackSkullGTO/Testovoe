@@ -1,5 +1,6 @@
 from m3_ext.ui import all_components as ext
 from m3_ext.ui.fields.complex import ExtDictSelectField
+from m3_ext.ui.fields.complex import ExtMultiSelectField
 
 from objectpack.ui import BaseEditWindow
 from objectpack.ui import ObjectGridTab
@@ -14,6 +15,7 @@ from datetime import date
 
 from .controller import observer
 from . import actions
+from . import models
 
 class UserAddWindow(BaseEditWindow):
 
@@ -118,7 +120,7 @@ class UserAddWindow(BaseEditWindow):
         self.height = 'auto'
 
 class PermissionTab(ObjectTab.fabricate(
-    model=Permission, field_list=('name', 'content_type__id', 'codename',))):
+    model=Permission, field_list=('name', 'content_type', 'codename',))):
 
     def init_components(self, *args, **kwargs):
         super(PermissionTab, self).init_components(*args, **kwargs)
