@@ -41,24 +41,24 @@
 
 ***
 
-![Создание Permission объекта](Screens/3.png)
+![Создание Permission записи](Screens/NEW1.png)
 
-Рис. 7 - Создание Permission объекта
-
-***
-
-![Список ContentType объектов](Screens/4.png)
-
-Рис. 8 - Список ContentType объектов
+Рис. 7 - Создание Permission записи
 
 ***
 
-![Заполненный Permission](Screens/5.png)
+![Список ContentType объектов](Screens/NEW2.png)
 
-Рис. 9 - Заполненный Permission (сохранение выдает ошибку, так как не получилось сохранить содержимое поля ContentType в объект Permission)
+Рис. 8 - Редактирование Permission записи
 
 ***
 
-![Редактирование Permission](Screens/6.png)
+![Удаление Permission](Screens/NEW3.png)
 
-Рис. 10 - Редактирование Permission (выбранный ContentType не отображается, сохранение так же выдаст ошибку)
+Рис. 9 - Удаление Permission
+
+***
+
+![Permission удален](Screens/NEW4.png)
+
+Рис. 10 - Permission удален
